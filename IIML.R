@@ -60,3 +60,8 @@ table(grade)
 write.csv(students,'data/students.csv', row.names=F)
 df1=read.csv('data/students.csv')
 df1
+DF2=read.csv()
+df2=read.csv(file.choose())
+library(dplyr)
+students
+students %>% group_by(gender) %>% summarise(mean(age))
